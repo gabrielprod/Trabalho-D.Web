@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+
+
+        <h1>
+            Moedas Mundi
+        </h1>
+
+        <nav id="menu">
+            <ul>
+
+                <li><a href="pag1.html">Real</a></li>
+                <li><a href="pag2.html">Dolár</a></li>
+                <li><a href="pag3.html">Libra</a></li>
+                <li><a href="pag4.html">Peso</a></li>
+                <li><a href="pag5.html">BitCoin</a></li>
+                <li><a href="pag6.html">Euro</a></li>
+
+            </ul>
+        </nav>
+
+
+        <figure id="bitcoin">
+            <img src="bit.png" height="100" width="100">
+        </figure>
+
+        <figure id="dollar">
+            <img src="dollar.png" height="112" width="112">
+        </figure>
+
+
+
+
+
+
+
+    </header>
+    <div id="conteudo">
+
+        <center>
+            <h1>COTAÇÕES DAS PRINCIPAIS MOEDAS BASEADAS NO DIA 02/12/2019</h1>
+        </center><br>
+
+        <div id="Box">
+            <section>
+
+                <form>
+                    <label> De : </label>
+
+                    <select name="op" id="opt">
+                        <option value="Dolár Americano">Dolár Americano</option>
+                        <option value="Libras Esterlinas">Libras Esterlinas</option>
+                        <option value="Peso Argentino">Peso Argentino</option>
+                        <option value="Real">Real</option>
+                        <option value="BitCoin">BitCoin</option>
+                        <option value="Euro">Euro</option>
+                    </select>
+
+                    <label>Para : </label>
+
+                    <select name="op" id="opt2">
+                        <option value= "Dolár Americano">Dolár Americano</option>
+                        <option value="Libras Esterlinas">Libras Esterlinas</option>
+                        <option value="Peso Argentino">Peso Argentino</option>
+                        <option value="Real">Real</option>
+                        <option value="BitCoin">BitCoin</option>
+                        <option value="Euro">Euro</option>
+                    </select><br><br>
+
+
+                    <label> Digite o valor : </label>
+
+                    <input type="number" name="b" id="de">
+                    <input type="button" value="Converter" onclick="cv()">
+                    <p id="salve"></p>
+                </form>
+
+                <figure id="realCont">
+                    <img src="1real.png" height="146" width="220">
+                </figure>
+
+                <figure id="dolarCont">
+                    <img src="dollar.png" height="170" width="170">
+                </figure>
+
+                <figure id="bitCont">
+                    <img src="bit.png" height="143" width="143 ">
+                </figure>
+
+                <figure id="libraCont">
+                    <img src="libra.png" height="153" width="153">
+                </figure>
+
+                <figure id="pesoCont">
+                    <img src="peso.png" height="147" width="147">
+                </figure>
+
+            </section>
+
+            <aside>
+
+                <table>
+                    <caption><b>AS MOEDAS MAIS UTILIZADAS DENTRE AS APRESENTADAS </b></caption>
+                    <tr>
+                        <th>Posição</th>
+                        <th>Moeda</th>
+
+                    </tr>
+                    <tr>
+                        <td rowspan="1">1º</td>
+                        <td>Euro</td>
+
+                    </tr>
+                    <tr>
+                        <td rowspan="1">2º</td>
+                        <td>Dólar Amaericano</td>
+
+                    </tr>
+                    <tr>
+                        <td rowspan="1">3º</td>
+                        <td>Libra Esterlina</td>
+
+                    </tr>
+                    <tr>
+                        <td rowspan="1">4º</td>
+                        <td>Real</td>
+
+                    </tr>
+                    <tr>
+                        <td rowspan="1">5º</td>
+                        <td>Peso Argentino</td>
+
+                    </tr>
+                    <tr>
+                        <td rowspan="1">6º</td>
+                        <td>BitCoin</td>
+                    </tr>
+
+                </table>
+
+            </aside>
+
+
+
+
+        </div>
+
+</body>
+
+</html>
